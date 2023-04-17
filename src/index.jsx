@@ -11,4 +11,10 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   )
 }
 
+if (import.meta.env.DEV) {
+  const { fakeApi } = await import('fake-api/server')
+
+  fakeApi()
+}
+
 render(() => <App />, root)

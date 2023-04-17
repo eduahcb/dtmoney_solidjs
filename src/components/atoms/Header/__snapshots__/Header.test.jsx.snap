@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > match snapshot 1`] = `"<header class=\\"go1825331116\\"><div class=\\"go4273203935\\"><p>this is a text</p></div></header>"`;
